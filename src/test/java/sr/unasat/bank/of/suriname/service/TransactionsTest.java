@@ -8,7 +8,7 @@ class TransactionsTest {
 
     @Test
     public void subtract(){
-        Transactions t = new Transactions();
+        Transactions t = Transactions.builder().build();
         assertEquals(2, t.subtract(3, 1));
     }
 
